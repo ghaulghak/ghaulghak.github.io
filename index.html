@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel, Tesoura</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+    <h1>Pedra, Papel, Tesoura</h1>
+
+    <div class = escolhas>
+
+        <button onclick = "jogar('pedra')">✊</button>
+        <button onclick = "jogar('papel')">🖐</button>
+        <button onclick = "jogar('tesoura')">✌️</button>
+
+    </div>
+
+    <div id = resultadoJogador>JOGADOR:</div>
+    <div id = resultadoComputador>COMPUTADOR:</div>
+    <div id = resultadoJogo></div>
+
+    <div id = reset>
+        <button id = "reiniciar" onclick="reiniciar()">REINCIAR</button>
+    </div>
+
+    <script src="codigo.js"></script>
+
+</body>
+</html>
